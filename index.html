@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form on Global Warming</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="image">
+            <img src="Image/ImageForArticle_898(1) (1).jpg" alt="Global Warming">
+        </div>
+        <fieldset>
+            <legend class="description">Effects of Global Warming</legend>
+            <p class="desc">Global warming is the long-term heating of Earth’s climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere. It is most commonly measured as the average increase in Earth’s global surface temperature.</p>
+        </fieldset>
+        <form>
+            <ol>
+               <li><label for="name">Name</label><br></li> 
+                <input type="text" id="name" name="name" required placeholder="Your Name"><br><br>
+                <section>
+                    <li><p>Have you heard of climate change?</p></li>
+                    <input type="radio" id="yes" name="change">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="change">
+                    <label for="no">No</label><br>
+                    <input type="radio" id="don't know" name="change">
+                    <label for="don't know">Don't know</label><br><br>
+                </section>
+                <section>
+                   <li><p>Do you think the temperature on earth has been rising over the past decade?</p></li>
+                    <input type="radio" id="yes" name="temperature">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="temperature">
+                    <label for="no">No</label><br>
+                    <input type="radio" id="don't know" name="temperature">
+                    <label for="don't know">Don't know</label><br><br>
+                </section>
+                <section>
+                    <li><p>Do you think climate change is something that is affecting or is going to affect you, personally?</p></li>
+                    <input type="radio" id="yes" name="affect">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="affect">
+                    <label for="no">No</label><br>
+                    <input type="radio" id="don't know" name="affect">
+                    <label for="don't know">Don't know</label><br><br>
+                </section>
+                <div>
+                    <li><p>How important is the issue of climate change to you personally?</p></li>
+                    <input type="radio" id="very important" name="important">
+                    <label for="very important">Very important</label><br>
+                    <input type="radio" id="quite important" name="important">
+                    <label for="quite important">Quite important</label><br>
+                    <input type="radio" id="not very important" name="important">
+                    <label for="not very important">Not very important</label><br>
+                    <input type="radio" id="not at all important" name="important">
+                    <label for="not at all important">Not at all important</label><br><br>
+                </section>
+                <section>
+                    <li><p>Who do you think have the main responsibility for tackling climate change?</p></li>
+                    <input type="radio" id="international" name="responsible">
+                    <label for="international">International Organisations (e.g. the UN)</label><br>
+                    <input type="radio" id="national" name="responsible">
+                    <label for="national">The National Government</label><br>
+                    <input type="radio" id="local" name="responsible">
+                    <label for="local">The Local Government</label><br>
+                    <input type="radio" id="industry" name="responsible">
+                    <label for="industry">Business and Industry</label><br>
+                    <input type="radio" id="environmental organisations" name="responsible">
+                    <label for="environmental organisations">Environmental organisations/Lobby groups (e.g. Worldwide Fund for Nature)</label><br>
+                    <input type="radio" id="individuals" name="responsible">
+                    <label for="individuals">Individuals</label><br><br>
+                </section>
+                <section>
+                    <li><p>Are you aware of the global policies or initiatives taken by various organizations to reduce climate change/global warming?</p></li>
+                    <input type="radio" id="yes" name="initiatives">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="initiatives">
+                    <label for="no">No</label><br><br>
+                </section>
+                <section>
+                    <li><p>Are you aware about the environmental policies in India?</p></li>
+                    <input type="radio" id="yes" name="policies">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="policies">
+                    <label for="no">No</label><br><br>
+                </section>
+                <section>
+                    <li><p>Do you think that global climate change can be reduced with individuals making major lifestyle changes?</p></li>
+                    <input type="radio" id="yes" name="reduce">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="reduce">
+                    <label for="no">No</label><br>
+                    <input type="radio" id="unsure" name="reduce">
+                    <label for="unsure">Unsure</label><br><br>
+                </section>
+                <section>
+                    <li><p>Since the environment and the global economy are linked, which of the following statements do you agree with more? The environment must be protected, even at the risk of curbing economic growth. OR, Economic growth must be protected, even if the environment suffers to some extent.</p></li>
+                    <input type="radio" id="environment" name="link">
+                    <label for="environment">Environment must be protected.</label><br>
+                    <input type="radio" id="economy" name="link">
+                    <label for="economy">Economic growth must be protected.</label><br>
+                    <input type="radio" id="equal" name="link">
+                    <label for="equal">Equal priority.</label><br><br>
+                </section>
+                <hr>
+            </ol>
+            <div class="submit1">
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
